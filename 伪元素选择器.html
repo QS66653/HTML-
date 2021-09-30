@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>伪元素</title>
+</head>
+<body ><!-- 伪元素表示一些特殊的不真实的元素（特殊的位置） -->
+<style>
+div::first-letter{font-size:50px;}
+div::first-line{background-color:pink}
+div{color:green;font-size:20px}
+div::selection{background-color:grey}
+div::before{content:'青山★';color:#FF00CC ;FONT-SIZE:50PX;font-family:楷体}
+div::after{content:'★';color:#FF00CC;FONT-SIZE:50PX }</style>
+<p><div>
+Wake up, sin, no joy</div></p>
+
+<p>Youth, hard work, excitement</p>
+</body>
+</html>

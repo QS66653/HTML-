@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+</head><style>
+.s1{background-color:yellow;}/* 行内元素不支持设置宽高
+                            行内元素可以设置padding，border，morgin但不会影响布局 */
+                           
+.box1{width:200px;
+height:200px;background-color:greenyellow}
+a{background-color:yellow;
+display:inline-block;width:200px;
+height:200px;
+display:none}
+</style>
+<body >
+<span class=s1>我是span1</span>
+<div class=box1></div>
+<a href=http://www.baidu.com>百度</a>
+</body>
+</html>
+<!-- 
+display：用来设置元素的显示状态
+inline：设置行内元素；
+block：将元素转换为块元素
+inline-block：块元素，行内元素属性兼有
+table：将元素设置一个表格
+none：元素不在页面中显示
+visible：默认值，元素在页面中正常显示，不会被隐藏 (类型：visibility) -->
