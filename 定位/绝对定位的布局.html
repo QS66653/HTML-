@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<style>
+.box1{width:500px;height:500px;background-color:yellow;position:relative}
+.box2{width:100px;height:100px;background-color:red;position:absolute;right:0;left:0;top:0;bottom:0;margin:auto;}
+</style>
+</head>
+<body >
+<div class=box1>
+<div class=box2></div></div>
+</body>
+</html>
+<!-- 水平的布局：margin-left/right+border-left/right+padding-left/right+width+left+right=包含块区域
+当我我们开启了绝对定位：
+水平方向布局需要添加left和right两个值
+此时规则和之前一样只是多添加了两个值
+当发生过渡约束时候
+如果九个值中没有auto，则自动调节right以使等式成立
+可设置的auto的值：margin，width，left，right
+垂直方向也需要满足等式：
+top+margin-top/bottom+padding-top/bottom+border-top/bottom=包含元素 -->
