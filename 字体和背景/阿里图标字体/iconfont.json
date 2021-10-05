@@ -1,0 +1,51 @@
+{
+  "id": "2847717",
+  "name": "青山",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "24533193",
+      "name": "UserManager",
+      "font_class": "UserManager",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "24533197",
+      "name": "zueJiaofei",
+      "font_class": "zueJiaofei",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "24533218",
+      "name": "Detail",
+      "font_class": "Detail",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "24533219",
+      "name": "Push",
+      "font_class": "Push",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "24533220",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "24533223",
+      "name": "AdminPic",
+      "font_class": "AdminPic",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    }
+  ]
+}
