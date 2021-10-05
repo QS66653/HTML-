@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<style>
+table{width:50%;border:1px solid black;border-collapse:collapse/* border-spacing:1px； */}
+td{border:1px solid black;height:10px}
+tr:nth-child(2n+1){background-color:#bfa}
+</style>
+</head>
+<body >
+<table>
+<tr>
+<td>学号</td>
+<td>姓名</td>
+<td>性别</td>
+<td>年龄</td>
+<td>地址</td>
+</tr>
+<tr>
+<td>01</td>
+<td>孙悟空</td>
+<td>男</td>
+<td>18</td>
+<td>花果山</td>
+</tr>
+<tr>
+<td>02</td>
+<td>猪八戒</td>
+<td>男</td>
+<td>19</td>
+<td>高老庄</td>
+</tr>
+<tr>
+<td>03</td>
+<td>唐僧</td>
+<td>男</td>
+<td>19</td>
+<td>女儿国</td>
+</tr>
+<tr>
+<td>04</td>
+<td>沙和尚</td>
+<td>男</td>
+<td>20</td>
+<td>流沙河</td>
+</tr>
+<tr>
+<td>05</td>
+<td>白龙马</td>
+<td>男</td>
+<td>21</td>
+<td>鹰愁涧</td>
+</tr>
+</table>
+</body>
+</html>
+<!-- border-spacing设置了边框之间的距离（当设置其值为0时候，边框宽度为2px） 
+border-collapse设置了边框的合并
+如果表格中更没有tbody，而是直接使用的tr
+那么浏览器会自动创建一个tbody，并且将tr全部放入
+tr不是table的子元素
+display:table-cell,将元素设置为单元格（元素具有了表格的性质)-->
+
