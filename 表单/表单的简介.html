@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<style>
+.box1{font-size:80px;color:#00CAFC;background-image:url(02.jpg);width:809px;background-size:cover}
+
+.s{width:80px; height:40px}
+</style>
+</head>
+<body >
+<div class=box1>
+<form action="target.html">
+文本框<input type=text name=username><!-- 输入的文本框
+                                                                     数据提交到服务器必须需要一个name属性值 -->
+<br><br>
+密码框<input type=password name=password><!-- 输入框，此处输入密码 -->                                                                                                           
+<br><br>
+单选按钮<input type=radio name=hello value=a>在线
+      <input type=radio name=hello value=b>隐身
+ <br><br>
+发现我（多选按钮）<input type=checkbox name=test value=1>同城
+<input type=checkbox name=test value=2>同市
+<input type=checkbox name=test value=3>同省
+<br><br>
+登录方式（下拉列表）<select name=da>
+<option value=i>手机</option>
+<option value=ii>电脑</option>
+</select>
+
+<input type=submit value=注册 class=s><!-- 提交的按钮 -->
+</form>
+</div>
+</body>
+</html>
+<!-- 表单在现实生活中用来提交数据，在我们的网页中，我们也可以使用表单
+作用：网页中的表单用于将本地的数据提交给远程服务器
+使用form标签来创建一个表单 -->
