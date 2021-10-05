@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+</head><style>
+/* .box1,.box2{width:100px;
+height:100px}
+.box1{background:green;
+margin-bottom:100px}
+.box2{background:yellow;
+margin-top:100px} *//* 相邻垂直方向的外边距会产生折叠 
+                                                            兄弟元素：间相邻垂直外边距会取两者之间较大值
+                                                                                 如果相邻值一正一负，则相加
+                                                                                 如果相邻的外边距都是负值，则取绝对值较大的*/
+.box3{background-color:blue;
+      width:500px;
+      height:500px}
+.box4{background-color:pink;
+      width:200px;
+      height:200px}
+
+
+
+
+
+</style>
+
+<body >
+<!-- <div class=box1></div>
+<div class=box2></div> --><div class=box3><div class=box4></div></div>
+</body>
+</html>
